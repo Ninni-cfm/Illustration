@@ -168,15 +168,16 @@ nav li {
     text-align: center;
     padding-bottom: 10%;
 }
-
 #examples-of-use h1,
 #examples-of-use p {
     padding: 0 25%;
 }
-
 #examples-of-use img {
     width: 35%;
     margin: 4% 2%;
+}
+#examples-of-use img:hover {
+    box-shadow: 0px 0px 3px rgba( 0, 0, 0, 0.5 ); 
 }
 
 
