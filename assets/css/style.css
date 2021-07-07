@@ -1,19 +1,14 @@
 /*==========================================================================================
  *   Fonts used
  */
-/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap'); */
-
 @font-face {
     font-family: 'Merriweather';
     src: url("../fonts/Merriweather-Regular.ttf");
 }
-
 @font-face {
     font-family: 'Lato';
     src: url("../fonts/Lato-Regular.ttf");
 }
-
 
 
 /*==========================================================================================
@@ -56,6 +51,7 @@ a {
     color: #202020;
 }
 
+
 /*==========================================================================================
  *  Navigation
  */
@@ -70,6 +66,7 @@ nav li {
     margin-right: 30px; 
     display: inline;
 }
+
 
 /*==========================================================================================
  *  Section 1: absurd illustrations...
@@ -101,6 +98,7 @@ nav li {
     font-weight: 300;
     color: white;
 }
+
 
 /*==========================================================================================
  *  Section 2: real beauty resides...
@@ -251,8 +249,9 @@ footer > a {
     display: block;
     font-weight: bold;
 }
-footer ul {margin-top: 0;}
-
+footer ul {
+    margin-top: 0;
+}
 footer li {
     display: inline;
 }
@@ -275,3 +274,4 @@ footer li:nth-of-type(3) a span {
 footer li:nth-of-type(4) a span {
     color: #c4302b;
 }
+
