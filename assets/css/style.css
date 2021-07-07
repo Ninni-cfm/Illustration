@@ -75,18 +75,13 @@ nav li {
  *  Section 1: absurd illustrations...
  */
 #absurd {
-    padding-bottom: 20%;
+    margin-top: 10vh;
+    padding: 10vh 5%;
+    background: url(../img/illustration1.gif) right/contain no-repeat;
 }
 #absurd div {
-    display:inline-block;
-    width: 44%;
     padding-top: 10%;
-    padding-left: 10%;
-    vertical-align: top;
-}
-#absurd img {
-    margin-left: 10%;
-    width: 30%;
+    width: 50%;
 }
 #absurd a {
     font-size: 1.5em;
@@ -107,19 +102,13 @@ nav li {
  *  Section 2: real beauty resides...
  */
 #real-beauty {
-    padding-bottom: 20%;
-}
-#real-beauty img {
-    display:inline-block;
-    margin-left: 10%;
-    width: 30%;
+    margin: 10vh 5% 0 0;
+    padding: 20vh 5%;
+    background: url(../img/illustration2.png) left/contain no-repeat;
 }
 #real-beauty div {
-    display:inline-block;
     width: 40%;
-    padding-top: 5%;
-    padding-left: 10%;
-    vertical-align: top;
+    margin-left: 50%;
 }
 
 
@@ -127,18 +116,13 @@ nav li {
  *  Section 3: expressiveness is...
  */
 #expressiveness {
-    padding-bottom: 20%;
+    margin: 10vh 5% 0 0;
+    padding: 10vh 5%;
+    background: url(../img/illustration3.png) right/contain no-repeat;
 }
 #expressiveness div {
-    display:inline-block;
-    width: 44%;
     padding-top: 10%;
-    padding-left: 10%;
-    vertical-align: top;
-}
-#expressiveness img {
-    margin-left: 10%;
-    width: 30%;
+    width: 50%;
 }
 
 
@@ -146,8 +130,9 @@ nav li {
  *  Section 4: illustrations for applications
  */
 #app-illustrations {
+    margin-top: 10vh;
+    padding: 10vh 0;
     text-align: center;
-    padding-bottom: 10%;
 }
 #app-illustrations h1,
 #app-illustrations p {
@@ -166,8 +151,8 @@ nav li {
  *  Section 5: examples of use
  */
 #examples-of-use {
+    padding: 10vh 0;
     text-align: center;
-    padding-bottom: 10%;
 }
 #examples-of-use h1,
 #examples-of-use p {
@@ -186,8 +171,8 @@ nav li {
  *  Section 6: download illustrations
  */
 #downloads {
+    padding: 10vh 0;
     text-align: center;
-    padding-bottom: 10%;
 }
 #downloads h1,
 #downloads p {
@@ -262,7 +247,7 @@ footer li span {
 /*------------------------------------------------------------------------------------------
  *  colors for social media links
  */
- footer li:nth-of-type(1) a span{
+footer li:nth-of-type(1) a span{
     /* facebook */
     color: #3b5998;
 }
