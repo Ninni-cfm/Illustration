@@ -26,6 +26,9 @@
 /*==========================================================================================
  *  Global styles
  */
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin-top: 30px;
     background-color: white;
@@ -121,7 +124,7 @@ nav li {
 
 
 /*==========================================================================================
- *  Section 4: expressiveness is...
+ *  Section 3: expressiveness is...
  */
 #expressiveness {
     padding-bottom: 20%;
@@ -160,7 +163,7 @@ nav li {
 
 
 /*==========================================================================================
- *  Section 4: illustrations for applications
+ *  Section 5: examples of use
  */
 #examples-of-use {
     text-align: center;
@@ -180,7 +183,7 @@ nav li {
 
 
 /*==========================================================================================
- *  Section 5: download illustrations
+ *  Section 6: download illustrations
  */
 #downloads {
     text-align: center;
@@ -190,8 +193,9 @@ nav li {
 #downloads p {
     padding: 0 25%;
 }
+
 /*------------------------------------------------------------------------------------------
- *  membership block within section 5: 
+ *  membership block within section 6: 
  */
 #membership {
     width: 20%;
@@ -240,14 +244,10 @@ footer {
 footer p {
     font-size: 1em;
     font-weight: 400;
-    color: silver;
+    color: #888;
 }
 footer p:last-of-type {
     margin-bottom: 0;
-}
-footer > a {
-    display: block;
-    font-weight: bold;
 }
 footer ul {
     margin-top: 0;
@@ -258,20 +258,24 @@ footer li {
 footer li span {
     font-size: 2em;
 }
-/* facebook */
-footer li:nth-of-type(1) a span{
+
+/*------------------------------------------------------------------------------------------
+ *  colors for social media links
+ */
+ footer li:nth-of-type(1) a span{
+    /* facebook */
     color: #3b5998;
 }
-/* instagram */
 footer li:nth-of-type(2) a span {
+    /* instagram */
     color: #fcaf45;
 }
-/* twitter */
 footer li:nth-of-type(3) a span {
+    /* twitter */
     color: #55acee;
 }
-/* youtube */
 footer li:nth-of-type(4) a span {
+    /* youtube */
     color: #c4302b;
 }
 
